@@ -1,0 +1,341 @@
+@charset "UTF-8";
+/*
+Theme Name: Techlab
+
+Author: Zhaniya Meiramova
+
+Text Domain: techlab
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400;1,600&display=swap');
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+   font-size: 3rem;
+}
+
+p{
+    color: #696984;
+font-size: 16px;
+font-family: Poppins;
+font-weight: 300;
+
+word-wrap: break-word
+}
+
+.btn-outline-secondary, .btn-secondary{
+    margin: auto;
+    border-radius: 80px;
+    width: 7rem;
+    box-shadow: 0px 10px 14px rgba(0, 0, 0, 0.03);
+}
+.btn-outline-dark{
+    border-radius: 50%;
+    box-shadow: 0px 10px 14px rgba(0, 0, 0, 0.03);
+    border: none;
+    background: white; 
+    
+}
+.btn-secondary{
+    background-color: #000000;
+ 
+}
+.btn-outline-secondary{
+    border: none;
+    background: white; 
+}
+
+.navbar{
+    background-color: #FAE9EC;
+    
+}
+
+.navbar-brand{
+    width: 90px;
+   height: 90px;
+    background-color: #F28095;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 16px;
+    font-weight: bold;
+    box-shadow: white 0px 0 60px;
+
+}
+.navbar-brand div  p{
+    text-shadow: white 1px 0 10px;
+    color: white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+
+
+.navbar-toggler, .btn-close{
+    font-size: x-large;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.content{
+ 
+    
+    /* border-radius: 0 0 50% 50%;
+    
+    -webkit-clip-path: circle(60.0% at 50% 10%);
+    clip-path: circle(50.0% at 50% 50%);
+   overflow: hidden; */
+   
+   z-index: -1;
+}
+
+.mobile{
+    display: none;
+}
+.play{
+    align-items: center;
+    
+}
+.image{
+    width: 80%;
+    transform: rotate(-6.5deg);
+}
+
+.btn-primary{
+    border-radius: 80px;
+    align-self:center;
+    background-color: #000000;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #F28095;
+   
+}
+.container-sm{
+    padding-top: 18px;
+}
+header .container-sm{
+    padding: 0;
+}
+@media (min-width: 368px) and (max-width: 767.98px) {
+  .cards{
+ flex-wrap: wrap;
+  }
+  
+  
+    .mobile{
+        display: block;
+        width: 50%;
+    }
+    h1{
+        
+       font-size: 2rem;
+    }
+    .content{
+        display: flex;
+        align-items: center;
+       
+        height: 400px;
+      
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+  
+.offcanvas-header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    
+}
+.image{
+    display: none;
+}
+
+.col{
+    width: 100%;
+}
+#offcanvasNavbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offcanvas-body, .offcanvas-body li a{
+    margin-top: 5%;
+    font-size:x-large;
+}
+
+.offcanvas-body li a button{
+    padding-left: 20px;
+}
+}
+
+
+.content {
+    
+    position: relative;
+    overflow: hidden;
+   
+   border-radius: 0 0 500% 500%/ 0 0 250% 250% ; 
+    
+    
+    background-color: #FAE9EC;
+}
+.companies{
+    color: #424246;
+font-size: 2.1rem;
+
+font-weight: 400;
+line-height: 56px;
+letter-spacing: 1.05px;
+
+}
+
+@media (min-width: 368px) and (max-width: 767.98px) {
+
+    .signup{
+        width: 100%;
+    }   
+    .content{
+        border-radius: 0 0 500% 500%/ 0 0 100% 100% ;}
+    .a-1,.a-2,.a-3,.a-4{
+        display: none;
+    }
+    .companies{
+     
+    font-size: 1.1rem;
+    
+    font-weight: 400;
+   
+    letter-spacing: 1.05px;
+    
+    }
+    .logo{
+        width: 120px;
+    }
+    h1,p{
+        text-align: center;
+    }
+    .btns{
+        align-self: center;
+    }
+    .navbar-brand{
+        margin: auto;
+        
+    }
+    p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    }
+
+
+
+.a-1{
+    position: absolute;
+    top: 354px;
+    right: 200px;
+} 
+.a-2{
+    position: absolute;
+    top: 400px;
+    right: 500px;
+}
+
+.a-3{
+    position: absolute;
+    top: 154px;
+    right: 200px;
+} 
+
+.a-4{
+    position: absolute;
+    top: 254px;
+    right: 510px;
+} 
+.navbar .nav-item , .btn-outline-secondary, .btn-secondary, .btn-primary{
+   
+font-size: 16px;
+font-family: Poppins;
+font-weight: 400;
+letter-spacing: 0.44px;
+word-wrap: break-word
+}
+
+
+.card-i{
+    top:-120px !important;
+    width: 150px;
+    height: 150px;
+}
+
+.card{
+    box-shadow: 0px 10px 60px rgba(38.03, 44.84, 117.94, 0.08); 
+    border-radius: 20px;
+    border: none;
+    width: 320px;
+}
+
+.btn-outline-light,.btn-danger{
+    border-radius: 80px;
+}
+.btn-danger{
+    background-color: #F28095;
+    border: none;
+}
+
+
+.vectorr {
+    position: absolute;
+    top: 1800px;
+   right: 40%;
+   z-index: -1;
+}
+
+.lm {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.ed{
+    background-image: url("/img/Vector 6320.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.skilline{
+
+margin-bottom: 8rem;
+}
+
+.list-group-item{
+    border: none;
+}
+
+
+.btnnn{
+    margin: auto;
+}
+
+.btn-outline-danger {
+    color: #F28095;
+    border:solid 2px #F28095;
+    border-radius: 80px;
+    font-weight: 500;
+}
+.btn-outline-danger:hover{
+    background-color: #F28095;
+    border:solid 2px #F28095;
+}
+
+.btn{
+    padding: 1rem;
+}
+
+.navbar-nav a{
+    text-decoration: none;
+    color: #696984;
+}
